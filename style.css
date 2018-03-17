@@ -1,0 +1,144 @@
+/* #2 #colorful #palette is
+* Background: #F5F5F5 (GREY 100)
+* Primary Text: black
+
+* Primary color: #3F51B5 (INDIGO)
+* Primary color_text : white
+* Accent color: #CDDC39 (LIME)
+* Accent color_text: black
+*/
+
+/*Global styles */
+
+* {
+/* #2 #font #faces */
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+strong {
+            /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+            text-transform: uppercase;
+}
+
+
+
+/*App bar */
+
+
+
+/*Channel list */
+ul {
+    list-style-type: none;
+ }
+
+ ul li {
+    padding: 16px;
+    font-size: 16px;
+ }
+
+ ul li img {
+    vertical-align: text-bottom;
+    display: inline-block;
+ }
+
+.highlight {
+    color: #3F51B5;
+    border-left-width: 4px;
+    border-left-color: #3F51B5;
+    border-left-style: solid;
+}
+
+
+
+/*Tap bar */
+.tab-bar {
+    /* #2 #colourful #plusfive */
+    background-color: white;
+    color: black;
+    /* #2 #font capital #letters */
+    text-transform: uppercase;
+    padding: 16px;
+    border: 0px;
+    font-size: 13px;
+    height: 72px;
+    width: 33%;
+}
+
+.tab-bar img {
+    vertical-align: text-bottom;
+    margin: auto;
+    display: block;
+    margin-bottom: 4px;
+}
+
+
+.selected {
+    color: #3F51B5;
+    border-bottom-width: 4px;
+    border-bottom-color: #3F51B5;
+    border-bottom-style: solid;
+}
+
+
+
+/*Messages */
+.message {
+    margin-bottom: 8px;
+    width: 80%;
+    margin-left: 2.5%;
+}
+
+.message h3 {
+    font-size: medium;
+}
+
+.message p {
+    background-color: white;
+    padding: 16px;
+}
+
+.message button {
+    background-color: #CDDC39;
+    text-transform: uppercase;
+    color: black;
+}
+
+.message em {
+    font-size: larger;
+    font-style: normal;
+}
+
+.message h3 a:link {
+    color: black
+}
+
+.message h3 a:visited {
+    color: black
+}
+
+.message h3 a:hover {
+    color: black
+}
+
+.message h3 a:active {
+    color: black
+}
+
+.own {
+    margin-left: 17.5%;
+}
+
+
